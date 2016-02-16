@@ -24,5 +24,5 @@ if int(ppi) > 320 and int(ppi) <= 480:
     print("This is a XXHDPI (extra extra high pixel density) display.")
 if int(ppi) > 480 and int(ppi) <= 640:
     print("This is a XXXHDPI (extra extra extra high pixel density) display.")
-print('Press "Enter" to close window.')
+print('Press "Enter" to exit.')
 raw_input()
